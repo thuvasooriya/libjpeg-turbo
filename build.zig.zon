@@ -1,0 +1,22 @@
+.{
+    .name = .libjpeg_turbo,
+    .version = "3.1.0",
+    .fingerprint = 0xb6dab2ce0d88ca72,
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+        .zig_build_helper = .{
+            .url = "git+https://github.com/thuvasooriya/zig-build-helper.git#main",
+            .hash = "zig_build_helper-0.1.0-R4iqbKZ7AACrLlgp90FWp48lKilvLrSEARt3lPv-SpN2",
+        },
+        .upstream = .{
+            .url = "git+https://github.com/libjpeg-turbo/libjpeg-turbo#20ade4dea9589515a69793e447a6c6220b464535",
+            .hash = "N-V-__8AABE3lQD6-SQnWwvbE_kpnE_jl-A-wCIh_dXtLEVg",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    },
+}
